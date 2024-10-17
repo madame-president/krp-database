@@ -25,3 +25,10 @@ Our goal is to eliminate redundant questions and unnecessary interactions betwee
 ## Database architecture
 
 ![Diagram](assets/ralm_hyde.jpg)
+
+## Training data
+
+This version of KRP database has been fully trained on CPA Canada Handbook 2025 edition available on Knotia. The process of training the data is very straight forward:
+
+1. Log in to knotia.ca
+
