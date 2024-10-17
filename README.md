@@ -24,3 +24,4 @@ Our goal is to eliminate redundant questions and unnecessary interactions betwee
 
 ## Database architecture
 
+![Diagram](assets/ralm_hyde.jpg)
