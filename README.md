@@ -26,6 +26,10 @@ Our goal is to eliminate redundant questions and unnecessary interactions betwee
 
 ![Diagram](assets/ralm_hyde.jpg)
 
+1. Server - We opted to use AWS due to the flexibility of deploying a private server within a few hours of set-up.
+2. Domain - the domain name krp-database.com was secured for $20/yr and the DNS is managed by us.
+3. Security - because this is a proof of concept system, no time was invested in security features.
+
 ## Training data
 
 This version of KRP database has been fully trained on CPA Canada Handbook 2025 edition available on Knotia. The process of training the data is very straightforward:
