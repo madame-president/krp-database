@@ -5,6 +5,8 @@ import tempfile
 import streamlit as st
 from embedchain import App
 
+# embedchain_bot function: creates and sets up a bot (instance) to store and query embeddings and use openai models.
+
 def embedchain_bot(db_path, api_key):
     return App.from_config(
         config={
@@ -17,6 +19,8 @@ def embedchain_bot(db_path, api_key):
 st.title("Database")
 st.header("Kingston, Ross & Pasnak LLP")
 
+# Retreives API key, creates temp vector database, initializes embedchain_bot and prompts the user to upload PDF
+
 openai_access_token = st.text_input("OpenAI API Key", type="password")
 
 if openai_access_token:
@@ -25,6 +29,8 @@ if openai_access_token:
 
     pdf_file = st.file_uploader("Upload a PDF file", type="pdf")
 
+# Uploads the PDF, gets the question and the answer
+    
     if pdf_file:
         with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as f:
             f.write(pdf_file.getvalue())
