@@ -16,7 +16,7 @@ Development of our first solution required some tradeoffs, where only 2 out of 3
 
 Our goal is to eliminate redundant questions and unnecessary interactions between staff and senior management by providing a database, trained on all of the internal documentation we've developed throughout the years. The database is not a filter-based search, but rather a database capable of handling literal questions such us **"What is the disclosure requirement for a contingent loss?"** Such capability can only be achieved by incorporating a large language model (LLM), such as GPT-4.
 
-**Huge disclaimer:** We as a team know that chatGPT can handle a lot of what we are trying to build, but pour 2 key differences are:
+**Huge disclaimer:** We as a team know that chatGPT can handle a lot of what we are trying to build. 2 key differences are:
 
 1. Sharing of private files - the KRP database runs locally, and the files are stored in a server that we set up. The incorporation of using an LLM in our database is possible thanks to the developer tools OpenAI created, which allows us to use their products, without relying on their servers for storage.
 
