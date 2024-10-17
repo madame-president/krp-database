@@ -2,6 +2,7 @@
 
 Openai =
 
+https://platform.openai.com/apps
 q9JtVq^r%4LmS=T
 
 Database =
