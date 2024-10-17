@@ -30,6 +30,8 @@ Our goal is to eliminate redundant questions and unnecessary interactions betwee
 2. Domain - the domain name krp-database.com was secured for $20/yr and the DNS is managed by us.
 3. Security - because this is a proof of concept system, no time was invested in security features.
 
+![AWS](assets/aws.png)
+
 ## Training data
 
 This version of KRP database has been fully trained on CPA Canada Handbook 2025 edition available on Knotia. The process of training the data is very straightforward:
