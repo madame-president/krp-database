@@ -1,10 +1,10 @@
 # KRP Database: a local storage solution for internal documentation that can handle natural-language questions
 
-**KRP Database** uses a LLM like GPT-4 to process natural-language questions as queries to retreive relevant snippets of data. The database converts the text into embeddings and generates a response. Please be aware that this is only a proof of concept system and may contain unfinished features.
+**KRP Database** uses an LLM like GPT-4 to process natural-language questions as queries to retrieve relevant snippets of data. The database converts the text into embeddings and generates a response. Please be aware that this is only a proof-of-concept system and may contain unfinished features.
 
 ## References
 
-The database implements the following academic paper: In-Context Retrieval-Augmented Language Models aka **RALM**, Precise Zero-Shot Dense Retrieval without Relevance Labels aka **HyDE** 
+The database implements the following academic papers: In-Context Retrieval-Augmented Language Models aka **RALM**, Precise Zero-Shot Dense Retrieval without Relevance Labels aka **HyDE** 
 
 ## Pre-cursors
 
