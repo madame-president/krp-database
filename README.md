@@ -46,3 +46,8 @@ This version of KRP database has been fully trained on CPA Canada Handbook 2025 
 
 3. Take the file.md and convert it to PDF. The file is now ready to be uploaded to KRP database.
 
+
+## Remember
+
+Navigate the repository
+
