@@ -28,7 +28,13 @@ Our goal is to eliminate redundant questions and unnecessary interactions betwee
 
 ## Training data
 
-This version of KRP database has been fully trained on CPA Canada Handbook 2025 edition available on Knotia. The process of training the data is very straight forward:
+This version of KRP database has been fully trained on CPA Canada Handbook 2025 edition available on Knotia. The process of training the data is very straightforward:
 
 1. Log in to knotia.ca
+![Knotia](assets/knotia.png)
+
+2. Copy/paste the data and convert it to markdown
+![Markdown](assets/markdown.png)
+
+3. Take the file.md and convert it to PDF. The file is now ready to be uploaded to KRP database.
 
